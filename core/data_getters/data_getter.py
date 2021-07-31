@@ -1,6 +1,6 @@
 from abc import abstractmethod, ABC
 
-from core.models import StockQuoteRequest
+from core.models import DailyAdjustedRequest
 import os
 
 
@@ -17,5 +17,5 @@ class DataGetter(ABC):
             raise ValueError("Empty API key. Please store your api key in the environment variable.")
 
     @abstractmethod
-    def get_stock_daily_adjusted(self, request: StockQuoteRequest):
+    def get_stock_daily_adjusted(self, request: DailyAdjustedRequest):
         pass

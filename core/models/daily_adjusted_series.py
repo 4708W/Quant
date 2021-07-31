@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 
-from .data_request import DataRequest
+from .data_series import DataSeries
 
 
 @dataclass
-class StockQuoteRequest(DataRequest):
+class DailyAdjustedSeries(DataSeries):
     ticker: str
     start_date: str
     end_date: str

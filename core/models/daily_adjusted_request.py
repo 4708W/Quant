@@ -4,7 +4,7 @@ from .data_request import DataRequest
 
 
 @dataclass
-class IndexQuoteRequest(DataRequest):
+class DailyAdjustedRequest(DataRequest):
     ticker: str
     start_date: str
     end_date: str
