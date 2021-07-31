@@ -6,5 +6,5 @@ from .data_request import DataRequest
 @dataclass
 class StockQuoteRequest(DataRequest):
     ticker: str
-    start_date: str
-    end_date: str
+    start_date: str = None
+    end_date: str = None

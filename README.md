@@ -1,8 +1,7 @@
 # Quant
 
 Home project for quantitative financial analysis
-- retrieve data from quandl api for indices and stocks
-- correlation analysis
+- retrieve data from alphavantage api for indices and stocks
 
 ### API Key for Alpha Vantage
 - [Get an AlphaVantage API key here](https://www.alphavantage.co/)
