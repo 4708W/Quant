@@ -1,7 +1,7 @@
 import pytest
 
-from core.data_getters import AlphaVantageDataGetter
-from core.models import StockQuoteRequest
+from quant.data_getters import AlphaVantageDataGetter
+from quant.models import StockQuoteRequest
 
 
 @pytest.mark.parametrize("ticker", ["VNQ", "SPXU", "SQQQ", "PSQ"])

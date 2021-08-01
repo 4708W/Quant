@@ -1,8 +1,8 @@
 import pytest
 import responses
 
-from core.data_getters import AlphaVantageDataGetter
-from core.models import StockQuoteRequest
+from quant.data_getters import AlphaVantageDataGetter
+from quant.models import StockQuoteRequest
 from .data_reader import DataReader
 
 

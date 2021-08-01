@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 
 @dataclass
-class IndexQuote:
+class StockQuote:
     date: str
     open: float
     high: float

@@ -1,5 +1,5 @@
 from .data_getter import DataGetter
-from core.models import StockQuoteRequest
+from quant.models import StockQuoteRequest
 import requests
 
 
@@ -14,8 +14,8 @@ class AlphaVantageDataGetter(DataGetter):
         query_param = {
             "function": "TIME_SERIES_DAILY_ADJUSTED",
             "symbol": request.ticker,
-            # "outputsize": "full",
             "apikey": self.api_key
+            # "outputsize": "full",
         }
         response = requests.get(url, params=query_param)
         return response.json()

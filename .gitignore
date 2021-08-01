@@ -133,3 +133,7 @@ dmypy.json
 
 # mac os
 .DS_Store
+
+# scripts
+analysis.py
+example.py

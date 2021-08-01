@@ -1,5 +1,5 @@
 from .provider import Provider
-from core.data_getters.alpha_vantage_data_getter import AlphaVantageDataGetter
+from quant.data_getters.alpha_vantage_data_getter import AlphaVantageDataGetter
 
 
 class StockDataGetterFactory:
