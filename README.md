@@ -15,3 +15,6 @@ Home project for quantitative financial analysis
 - To set environment variables, run `conda env config vars set ALPHA_VANTAGE_API_KEY='your_api_key_goes_here'`.
 [See Conda docs here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#setting-environment-variables)
 - If you're using an IDE like pycharm (like me), [See here](https://stackoverflow.com/questions/42708389/how-to-set-environment-variables-in-pycharm)
+
+### Next Feature:
+- New data provider: https://financialmodelingprep.com/developer
